@@ -1,12 +1,12 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
-import logo from '../assets/logo512.png';
+import logo from '../assets/logo5.jpg';
 
 const Styles = styled.div`
     .navbar {
         background-color: #443F5B;
-        height: 100px;
+        height: 125px;
     }
 
     .navbar-brand, .navbar-nav .nav-link {
@@ -23,7 +23,7 @@ const Styles = styled.div`
 export const NaviBar = () => (
     <Styles>
         <Navbar expand="lg">
-            <Navbar.Brand href="/"><img src={logo} width="100px" height="100px" />Goodrich Bodywork</Navbar.Brand>
+            <Navbar.Brand href="/"><img src={logo} alt="logo" width="100px" height="100px" />Goodrich Bodywork</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

@@ -9,10 +9,10 @@ export const SmallCard = () => (
         <div class="row">
             <div class="col-sm-6">
             <Card style={{marginTop:"5px"}} className="bg-dark text-white">
-            <Card.Img style={{height:"600px"}} src={mass3} alt="Card image" />
+            <Card.Img style={{height:"500px"}} src={mass3} alt="Card image" />
             <Card.ImgOverlay>
-            <Card.Title style={{color:"#E1DEEE", fontSize:"50px", textAlign: "center" }}>90 Minute Massage</Card.Title>
-            <Button style={{backgroundColor: "#443F5B", borderColor: "#443F5B", color: "#E1DEEE", fontWeight: "bold"}} size="lg" block href="https://square.site/book/NFB23H73GAVE4/goodrich-bodywork" target="_blank">
+            <Card.Title style={{color:"#E1DEEE", fontSize:"50px", textAlign: "center"}}>90 Minute Massage</Card.Title>
+            <Button style={{backgroundColor: "#443F5B", borderColor: "#E1DEEE", color: "#E1DEEE", fontWeight: "bold"}} size="lg" block href="https://square.site/book/NFB23H73GAVE4/goodrich-bodywork" target="_blank">
             BOOK NOW
             </Button>
             </Card.ImgOverlay>
@@ -20,7 +20,7 @@ export const SmallCard = () => (
             </div>
             <div class="col-sm-6">
             <Card style={{marginTop:"5px"}} className="bg-dark text-white">
-            <Card.Img style={{height:"600px"}} src={mass1} alt="Card image" />
+            <Card.Img style={{height:"500px"}} src={mass1} alt="Card image" />
             <Card.ImgOverlay>
             <Card.Title style={{color:"#E1DEEE", fontSize:"50px", textAlign: "center" }}>Enhancements</Card.Title>
             <Card.Title style={{color:"#E1DEEE", fontSize:"30px", textAlign: "center" }}>
@@ -28,10 +28,10 @@ export const SmallCard = () => (
                     <li>Deep Tissue</li>
                     <li>Hot Stone</li>
                     <li>Sugar Scrub</li>
-                    <li>Luxury Style</li>
+                    <li>Luxury</li>
                 </ul>
             </Card.Title>
-            <Button style={{backgroundColor: "#443F5B", borderColor: "#443F5B", color: "#E1DEEE", fontWeight: "bold"}} size="lg" block href="https://square.site/book/NFB23H73GAVE4/goodrich-bodywork" target="_blank">
+            <Button style={{backgroundColor: "#443F5B", borderColor: "#E1DEEE", color: "#E1DEEE", fontWeight: "bold"}} size="lg" block href="https://square.site/book/NFB23H73GAVE4/goodrich-bodywork" target="_blank">
             BOOK NOW
             </Button>
             </Card.ImgOverlay>

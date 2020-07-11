@@ -20,7 +20,9 @@ export const About = () => (
             </Row>
             <Row>
             <Col></Col>
-            <Col><iframe width="560" height="315" src="https://www.youtube.com/embed/1IRJq2LimEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
+            <div class="d-flex justify-content-center">
+            <Col><iframe width="450" height="300" src="https://www.youtube.com/embed/1IRJq2LimEo" title="My video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Col>
+            </div>
             <Col></Col>
             </Row>
     </Container>
