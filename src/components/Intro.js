@@ -8,7 +8,8 @@ export const Intro = () => (
             fontFamily:"fantasy", 
             fontWeight:"bold", 
             textAlign:"center", 
-            paddingTop:"20px"}}>
+            paddingTop:"20px",
+            paddingBottom:"20px"}}>
                 Goodrich Bodywork</h1>
         <p style={{
             color:"#443F5B", 
