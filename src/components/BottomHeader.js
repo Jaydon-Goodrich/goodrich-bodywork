@@ -1,11 +1,13 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Styles = styled.div`
     .navbar {
         background-color: #443F5B;
-        height: 100px;
     }
 
     .navbar-brand, .navbar-nav .nav-link {
@@ -21,13 +23,19 @@ const Styles = styled.div`
 
 export const BottomHeader = () => (
     <Styles>
-        <Navbar expand="lg">
-            <Navbar.Brand href="/">Goodrich Bodywork</Navbar.Brand>
-            
-                <Nav className="ml-auto">
-                    <Nav.Item style={{color:"#E1DEEE"}}> <h4>&#169; 2020</h4></Nav.Item>
-                    
-                </Nav>
-        </Navbar>
+        <Container style={{maxWidth:"100%",padding:"0px", margin:"0px"}}>
+            <Row> 
+                <Col xs={12}>
+                    <Navbar>
+                        <Navbar.Brand href="/"><h4>Goodrich Bodywork</h4></Navbar.Brand>
+                        
+                            <Nav className="ml-auto">
+                                <Nav.Item style={{color:"#E1DEEE"}}> <h4>&#169; 2020</h4></Nav.Item>
+                                
+                            </Nav>
+                    </Navbar>
+                </Col>
+            </Row>
+        </Container>
     </Styles>
 )
