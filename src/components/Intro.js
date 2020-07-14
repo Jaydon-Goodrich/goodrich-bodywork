@@ -5,7 +5,7 @@ export const Intro = () => (
     <div style={{padding:"100px"}}>
         <h1 style={{
             color:"#443F5B", 
-            fontFamily:"fantasy", 
+            fontFamily:"Palatino Linotype", 
             fontWeight:"bold", 
             textAlign:"center", 
             paddingTop:"20px",
@@ -13,7 +13,7 @@ export const Intro = () => (
                 Goodrich Bodywork</h1>
         <p style={{
             color:"#443F5B", 
-            fontFamily:"fantasy",
+            fontFamily:"Palatino Linotype",
             textAlign:"center"
         }}>My name is Jenni. I am a licensed Massage Therapist. I travel and can come to you any time of the week Monday - Saturday</p>
         

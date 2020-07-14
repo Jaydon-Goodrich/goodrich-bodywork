@@ -11,9 +11,7 @@ export const Footer = () => (
         <h1 style={{
             paddingTop:"40px",
             color:"#443F5B", 
-            fontFamily:"fantasy",
-            textDecoration:"underline",
-            textDecorationStyle:"dotted",
+            fontFamily:"Palatino Linotype",
             textAlign:"center", 
             }}>
                 Reviews</h1>

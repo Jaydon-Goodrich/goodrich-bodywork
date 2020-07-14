@@ -22,7 +22,7 @@ export const NewNavBar = () => (
     <Styles>
         <Navbar collapseOnSelect expand="lg">
             <Navbar.Brand href="/"><img src={logo} alt="logo" width="100px" height="100px"/>Goodrich Bodywork</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Toggle style={{backgroundColor:"#E1DEEE"}} aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
                 <Nav.Link href="/">Home</Nav.Link>

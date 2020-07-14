@@ -9,9 +9,7 @@ export const MyCard = () => (
     <div>
         <h1 style={{
             color:"#443F5B", 
-            fontFamily:"fantasy",
-            textDecoration:"underline",
-            textDecorationStyle:"dotted",
+            fontFamily:"Palatino Linotype",
             textAlign:"center", 
             }}>
                 Products</h1>
